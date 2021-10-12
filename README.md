@@ -44,9 +44,9 @@ The analysis of the election show that:
 
 The election commission could use this script to post election results in other jurisdictions with some initital file set up and some changes to the script.
 The initial set up of the file should use the following format:
- -Column 1 Ballot_ID
- -Column 2 County
- -Column 3 Candidate
+Column 1 Ballot_ID,
+Column 2 County,
+Column 3 Candidate
 If that format is followed, only minor changes to the script would be required. For instance line 5 would need to reflect the new file name. If different columns were used those new columns would need to be incorporated in the script.
 ## Challenge Summary
 This project was a very frustrating and rewarding exersize. Though time consuming, the module was developed in a more easy to understand way. This is a significantly more understandable programing language versus VBA. 
